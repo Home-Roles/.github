@@ -7,6 +7,5 @@ body:
     id: description
     attributes:
       label: Popis problému
-      description: Co se stalo?
     validations:
       required: true
