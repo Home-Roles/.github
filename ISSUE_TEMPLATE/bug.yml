@@ -1,46 +1,11 @@
-name: Bug - Backend
-description: Backend Bug
+name: Bug Report
+description: Hlášení chyby
 title: ""
 labels: ["backend"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Děkujeme za hlášení chyby!
-
   - type: textarea
     id: description
     attributes:
       label: Popis problému
-      description: Co se stalo?
-      placeholder: ""
     validations:
       required: true
-
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priorita
-      options:
-        - P0
-        - P1
-        - P2
-    validations:
-      required: true
-
-  - type: dropdown
-    id: milestone
-    attributes:
-      label: Milestone
-      options:
-        - v0.0.1
-    validations:
-      required: true
-
-  - type: textarea
-    id: resolution
-    attributes:
-      label: Řešení
-      placeholder: ""
-    validations:
-      required: false
